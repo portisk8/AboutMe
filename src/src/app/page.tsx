@@ -11,10 +11,12 @@ import ExperienceCard from "@/components/ExperienceCard";
 import SkillCard from "@/components/SkillCard";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa6";
 import Image from "next/image";
+import FloatingChatButton from "@/components/Chat";
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <FloatingChatButton />
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="container mx-auto px-6 py-20">

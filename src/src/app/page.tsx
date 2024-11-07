@@ -270,13 +270,15 @@ const LandingPage = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
-                  <span>
+                  <p className="text-gray-700">
                     1st Place - Rally Latinoamericano de Innovación (2015)
-                  </span>
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
-                  <span>1st Place - Hackathon Express Corrientes (2016)</span>
+                  <p className="text-gray-700">
+                    1st Place - Hackathon Express Corrientes (2016)
+                  </p>
                 </li>
               </ul>
             </div>
@@ -288,19 +290,21 @@ const LandingPage = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
-                  <span>
+                  <p className="text-gray-700">
                     Microsoft Certified: Azure AI Fundamentals (AI-900)
-                  </span>
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
-                  <span>
+                  <p className="text-gray-700">
                     Microsoft Certified: Azure IoT Developer Specialty (AZ-220)
-                  </span>
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
-                  <span>Scrum Foundation Professional Certificate (SFPC)</span>
+                  <p className="text-gray-700">
+                    Scrum Foundation Professional Certificate (SFPC)
+                  </p>
                 </li>
               </ul>
             </div>
